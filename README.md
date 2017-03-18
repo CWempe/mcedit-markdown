@@ -8,9 +8,9 @@ To install the syntax highlighting execute these commands
 
 ```bash
 # download syntax file
-sudo curl -L -o /usr/share/mc/syntax/markdown.syntax https://github.com/CWempe/mcedit-markdown/raw/master/markdown.syntax
+sudo curl -L -o /usr/share/mc/syntax/markdown.syntax https://raw.githubusercontent.com/CWempe/mcedit-markdown/master/markdown.syntax
 
 # download and apply patch for Syntax file
-curl -L -o /tmp/Syntax.patch https://github.com/CWempe/mcedit-markdown/raw/master/Syntax.patch
+curl -L -o /tmp/Syntax.patch https://raw.githubusercontent.com/CWempe/mcedit-markdown/master/Syntax.patch
 sudo patch /usr/share/mc/syntax/Syntax < /tmp/Syntax.patch
 ```
